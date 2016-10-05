@@ -2,4 +2,6 @@ from .widget import Widget
 
 class Canvas(Widget):
     """ Canvas type widget """
-    pass
+
+    def __init__(self):
+        self.type = "CANVAS"

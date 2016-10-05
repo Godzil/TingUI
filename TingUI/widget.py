@@ -2,7 +2,8 @@ from .rect import Rect
 
 class Widget:
     """ Base class for all type of UI widgets """
-    def __init__(self):
+    def __init__(self): 
+        self.type = "WIDGET"
         self.bound = Rect()
 
     def setPos(self, x, y):
